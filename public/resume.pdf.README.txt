@@ -1,0 +1,3 @@
+Replace this folder's resume.pdf with your real resume.
+The Hero section's "Download Resume" button links to /resume.pdf,
+so any file you drop in /public named resume.pdf will be served automatically.
