@@ -152,29 +152,47 @@ export const projects = [
     },
   },
   {
-    id: "keeper-auth",
-    name: "Keeper",
-    route: "/projects/keeper",
-    tagline: "Drop-in auth & user service",
-    description:
-      "A reusable authentication and user-management service other side projects plug into, so every new app doesn't need auth built from scratch.",
-    image:
-      "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1200&auto=format&fit=crop",
-    tech: ["Node.js", "Express", "MongoDB", "JWT", "React"],
-    github: "https://github.com/sayyedahmedhussain/keeper",
-    live: "https://keeper-auth.example.com",
-    features: [
-      "Email/password and OAuth sign-in behind one API",
-      "Refresh-token rotation with reuse detection",
-      "Admin console for managing users and sessions",
-      "Drop-in React hooks for consuming apps",
-    ],
-    architecture: {
-      backend: "Express service exposing a small, versioned REST surface for auth and user records.",
-      frontend: "React admin console plus a published hooks package for downstream apps.",
-      database: "MongoDB with TTL indexes for expiring tokens and sessions.",
-      authentication: "JWT with refresh rotation and reuse detection; OAuth via provider redirect flows.",
-      deployment: "Single container on Render behind a custom domain, shared across side projects.",
-    },
+  id: "syed-boys-hostel",
+  name: "Syed Boys Hostel Website",
+  route: "/projects/syed-boys-hostel",
+  tagline: "Modern hostel website with SEO & real client deployment",
+  description:
+    "A fully responsive and SEO-optimized website developed for Syed Boys Hostel in Rawalpindi. The website showcases hostel facilities, room details, pricing, contact information, location, and booking options. I handled the complete development, implemented on-page SEO for better search engine visibility, deployed the project to Vercel, and successfully delivered it to the client. The client is satisfied with the final product and is receiving inquiries and bookings through the website.",
+  image:
+    "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?q=80&w=1200&auto=format&fit=crop",
+  tech: [
+    "HTML5",
+    "CSS3",
+    "JavaScript",
+    "SEO",
+    "Responsive Design",
+    "Vercel"
+  ],
+  github: "https://github.com/sayyedahmedhussain/syed-boys-hostel-website",
+  live: "https://syed-boys-hostel-website111.vercel.app/",
+  features: [
+    "Fully responsive design for mobile, tablet, and desktop",
+    "Modern and user-friendly interface",
+    "Hostel facilities and amenities section",
+    "Room pricing and accommodation details",
+    "Interactive contact page with location information",
+    "SEO optimization for improved Google search visibility",
+    "Fast-loading pages with optimized assets",
+    "Cross-browser compatibility",
+    "Deployed on Vercel with production-ready configuration",
+    "Helping the client receive online inquiries and hostel bookings"
+  ],
+  architecture: {
+    frontend:
+      "Built using semantic HTML5, modern CSS3, and vanilla JavaScript for high performance and maintainability.",
+    responsive:
+      "Mobile-first responsive layout ensuring an excellent user experience across all screen sizes.",
+    seo:
+      "Implemented on-page SEO including optimized meta titles, descriptions, Open Graph tags, sitemap.xml, robots.txt, structured page hierarchy, and performance optimization.",
+    deployment:
+      "Successfully deployed on Vercel with continuous deployment from GitHub for easy updates.",
+    impact:
+      "Delivered as a real client project. The client is happy with the website, has improved online visibility, and is receiving inquiries and booking requests through the website."
   },
+},
 ];
