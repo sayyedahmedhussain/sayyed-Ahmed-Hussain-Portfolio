@@ -43,7 +43,7 @@ export default function Loader({ onFinish }) {
             transition={{ duration: 3, repeat: Infinity, ease: "linear" }}
           >
             <div className="absolute inset-0 rounded-2xl bg-gradient-to-br from-primary to-accent opacity-30 blur-md" />
-            <span className="relative font-display text-2xl font-bold text-gradient">AR</span>
+            <span className="relative font-display text-2xl font-bold text-gradient">SAH</span>
           </motion.div>
 
           <p className="eyebrow mt-6">GET /portfolio</p>
