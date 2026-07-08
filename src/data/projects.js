@@ -23,7 +23,7 @@ export const projects = [
     "JavaScript",
   ],
 
-  github: "https://github.com/sayyedahmedhussain/YOUR-REPOSITORY",
+  github: "https://github.com/sayyedahmedhussain/gamex-mern-platform",
   live: "https://YOUR-LIVE-DEMO.vercel.app",
 
   features: [
@@ -71,7 +71,7 @@ export const projects = [
     "SVG"
   ],
 
-  github: "https://github.com/sayyedahmedhussain/YOUR-SVG-EDITOR-REPOSITORY",
+  github: "https://github.com/sayyedahmedhussain/svg-editor-mongodb",
   live: "https://YOUR-LIVE-DEMO.vercel.app",
 
   features: [
