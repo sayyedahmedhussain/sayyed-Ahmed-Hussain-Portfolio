@@ -107,7 +107,7 @@ export const projects = [
   description:
     "A full-stack real-time chat application built with the MERN stack, featuring JWT authentication, dual OTP verification (Email & Phone), one-to-one and group messaging, file sharing, and live communication powered by Socket.io.",
 
-  image: "/uploads/sah-chat.png", // Replace with your project screenshot
+  image: "/uploads/sah-chatapp.png", // Replace with your project screenshot
 
   tech: [
     "React.js",
