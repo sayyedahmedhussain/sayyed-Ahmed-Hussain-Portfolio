@@ -159,7 +159,7 @@ export const projects = [
   description:
     "A fully responsive and SEO-optimized website developed for Syed Boys Hostel in Rawalpindi. The website showcases hostel facilities, room details, pricing, contact information, location, and booking options. I handled the complete development, implemented on-page SEO for better search engine visibility, deployed the project to Vercel, and successfully delivered it to the client. The client is satisfied with the final product and is receiving inquiries and bookings through the website.",
   image:
-    "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?q=80&w=1200&auto=format&fit=crop",
+    "/uploads/syed-boys-hostel.png",
   tech: [
     "HTML5",
     "CSS3",
