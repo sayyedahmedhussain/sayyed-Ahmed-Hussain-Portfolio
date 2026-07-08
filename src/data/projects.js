@@ -11,7 +11,7 @@ export const projects = [
   description:
     "A full-stack MERN application featuring a responsive gaming website, secure admin dashboard, and RESTful backend API for dynamic content management.",
 
-  image: "/uploads/gamex-project.png", // Replace with your project screenshot
+  image: "/uploads/gamex.png", // Replace with your project screenshot
 
   tech: [
     "React.js",
